@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a software developer featuring modern design and cutting edge architecture.">
+    <title>My Portfolio | Creative Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="ambient-light"></div>
+
+    <header id="header">
+        <a href="#" class="logo">DevPortfolio.</a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in">
+                <span class="greeting"> </span>
+                <h1 class="hero-title">Hi,<br><span class="gradient-text">This is Rushikethana Gottimukkula.</span></h1>
+                <p class="hero-desc">I am a software engineer specializing in building (and occasionally designing)
+                    exceptional digital experiences. Currently, I'm focused on building accessible, human-centered
+                    products.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Skills Section -->
+        <section id="about">
+            <div class="fade-in">
+                <h2 class="section-title">Tech Toolkit</h2>
+                <p style="color: var(--text-secondary); max-width: 600px; font-size: 1.1rem;">
+                    I have worked with a wide range of cutting-edge technologies to craft robust front-end and back-end
+                    architectures. Here are a few languages and frameworks I use:
+                </p>
+
+                <div class="skills-grid">
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">Java</div>
+                    <div class="skill-tag">HTML & CSS </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="fade-in">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+
+                   
+                    <!-- Card 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>CROSSY ROADEX</h3>
+                            <p>Crossy Road is an endless arcade game where players guide a character across busy roads, rivers, and train tracks while avoiding obstacles.</p>
+                            <p>It features a simple tap-and-swipe control system, making it easy to play but challenging to master.</p>
+                            <p>It also includes a variety of unlockable characters, each with unique visual styles that keep the gameplay fun and engaging.</p>
+                        </div>
+                        <div class="project-tech">
+                            <a href="https://github.com/RUSHIKETHANA28/CROSSY_ROADEX" class="btn btn-outline"
+                                style="padding: 0.5rem 1rem; font-size:0.9rem; border-color:var(--text-muted); color:var(--text-muted)">GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-content fade-in">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="[EMAIL_ADDRESS]" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="How can I help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
